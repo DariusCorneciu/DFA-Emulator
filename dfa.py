@@ -82,7 +82,7 @@ def dfa_emulator(string,dictionar):
 
 #main
 dictionary = citire_fisier("catalin.txt")
-string = "000"
+string = "000010"
 stimp=time.time()
 #print(dictionary)
 for i in range(0,100000):
